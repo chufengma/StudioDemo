@@ -22,6 +22,8 @@ public class MainActivity extends Activity {
         spannableString.setSpan(new ForegroundColorSpan(Color.GREEN), 0, spannableString.length(), Spanned.SPAN_INCLUSIVE_INCLUSIVE);
         spannableString.setSpan(new BackgroundColorSpan(Color.WHITE), 0, 2, Spanned.SPAN_INCLUSIVE_EXCLUSIVE);
         getActionBar().setTitle(spannableString);
+
+
     }
 
 
